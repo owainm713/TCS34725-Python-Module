@@ -7,8 +7,10 @@ To use this module, run your program as the root user,  i.e. sudo...
 The module needs smbus to be installed to use the i2c interface. The i2c interface also 
 needs to be enabled on your Raspberry Pi.
 
-Also included is an example file that when run will output raw colour sensor data
-every second. 
+Also included are 2 example files, one that when run will output raw colour sensor data
+every second and the 2nd which will try reflecting the colour sensed via pygame and a tri
+colour LED. The 2nd example will also make a best guess at the name of the colour being
+sensed and print it out 
 
 The connections to the adafruit TCS34725 colour sensor break out board I used
 are as follows:

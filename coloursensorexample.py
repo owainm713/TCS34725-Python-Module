@@ -2,7 +2,29 @@
 """coloursensorexample, TCS34725 RGB colour sensor adafruit breakout
 board practice using the TCS34725 python module
 
-created May 19, 2017"""
+created May 19, 2017
+modified Nov 18, 2017 - notes only"""
+
+"""
+Copyright 2017 Owain Martin
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+------------------------------------------------------------------------
+
+In this example, the raw data of the colour sensed is printed to the
+screen"""
 
 from TCS34725 import ColourSensor
 import time, sys, smbus
