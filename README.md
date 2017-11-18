@@ -10,7 +10,7 @@ needs to be enabled on your Raspberry Pi.
 Also included are 2 example files, one that when run will output raw colour sensor data
 every second and the 2nd which will try reflecting the colour sensed via pygame and a tri
 colour LED. The 2nd example will also make a best guess at the name of the colour being
-sensed and print it out 
+sensed and print it out.  The 2nd example requires the RPi.GPIO module
 
 The connections to the adafruit TCS34725 colour sensor break out board I used
 are as follows:
